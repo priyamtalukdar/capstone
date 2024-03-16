@@ -24,7 +24,6 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  
                   <button className='btn2' onClick={() => handleButtonClick('/report')}>{price}</button>
                   <label htmlFor=''></label>
                 </div>
