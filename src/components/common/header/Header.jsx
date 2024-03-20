@@ -11,7 +11,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <h2>dietify</h2>
+          <h5>Smart Diet Buddy</h5>
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>

@@ -16,7 +16,7 @@ export const nav = [
     path: "/blog",
   },
   {
-    text: "pricing",
+    text: "plans",
     path: "/pricing",
   },
   {

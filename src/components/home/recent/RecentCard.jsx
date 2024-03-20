@@ -1,6 +1,5 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { list } from "../../data/Data";
 
 const RecentCard = () => {
   const history = useHistory();
@@ -12,25 +11,95 @@ const RecentCard = () => {
   return (
     <>
       <div className='content grid3 mtop'>
-        {list.map((val, index) => {
-          const { cover, name, price } = val;
-          return (
-            <div className='box shadow' key={index}>
-              <div className='img'>
-                <img src={cover} alt='' />
-              </div>
-              <div className='text'>
-                <h4>{name}</h4>
-              </div>
-              <div className='button flex'>
-                <div>
-                  <button className='btn2' onClick={() => handleButtonClick('/report')}>{price}</button>
-                  <label htmlFor=''></label>
-                </div>
-              </div>
+        <div className='box shadow' key="1">
+          <div className='img'>
+            <img src="../images/list/sugar.jpg" alt='' />
+          </div>
+          <div className='text'>
+          </div>
+          <div className='button flex'>
+            <div>
+              <button className='btn2' onClick={() => handleButtonClick('/Sugarreport')}>Diabetes Test</button>
+              <label htmlFor=''></label>
             </div>
-          );
-        })}
+          </div>
+        </div>        
+        
+        <div className='box shadow' key="2">
+          <div className='img'>
+            <img src="../images/list/pressure1.jpg" alt='' />
+          </div>
+          <div className='text'>
+            
+          </div>
+          <div className='button flex'>
+            <div>
+              <button className='btn2' onClick={() => handleButtonClick('/Pressurereport')}>Blood Pressure</button>
+              <label htmlFor=''></label>
+            </div>
+          </div>
+        </div>        
+        
+        <div className='box shadow' key="3">
+          <div className='img'>
+            <img src="../images/list/cardiovascular.jpeg" alt='' />
+          </div>
+          <div className='text'>
+            
+          </div>
+          <div className='button flex'>
+            <div>
+              <button className='btn2' onClick={() => handleButtonClick('/Cardiovascularreport')}>Cardiovascular Test</button>
+              <label htmlFor=''></label>
+            </div>
+          </div>
+        </div>        
+        
+        <div className='box shadow' key="4">
+          <div className='img'>
+            <img src="../images/list/liver.jpeg" alt='' />
+          </div>
+          <div className='text'>
+           
+          </div>
+          <div className='button flex'>
+            <div>
+            <button className='btn2' onClick={() => handleButtonClick('/Pressurereport')}>Liver Function Test</button>
+              <label htmlFor=''></label>
+            </div>
+          </div>
+        </div>        
+        
+        <div className='box shadow' key="5">
+          <div className='img'>
+            <img src="../images/list/cvc.jpg" alt='' />
+          </div>
+          <div className='text'>
+           
+          </div>
+          <div className='button flex'>
+            <div>
+              <button className='btn2' onClick={() => handleButtonClick('/report')}>Complete Bloodcount Test</button>
+              <label htmlFor=''></label>
+            </div>
+          </div>
+        </div>        
+        
+        <div className='box shadow' key="6">
+          <div className='img'>
+            <img src="../images/list/kidney.jpg" alt='' />
+          </div>
+          <div className='text'>
+            
+          </div>
+          <div className='button flex'>
+            <div>
+              <button className='btn2' onClick={() => handleButtonClick('/report')}>Kidney Function Test</button>
+              <label htmlFor=''></label>
+            </div>
+          </div>
+        </div>        
+        
       </div>
     </>
   );

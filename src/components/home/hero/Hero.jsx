@@ -4,10 +4,10 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./hero.css";
 
-import image1 from "../../images/about.jpg";
-import image2 from "../../images/pricing.jpg";
-import image3 from "../../images/services.jpg";
-import image4 from "../../images/about.jpg";
+import image1 from "../../images/image1.jpeg";
+import image2 from "../../images/image2.jpeg";
+import image3 from "../../images/image3.jpeg";
+import image4 from "../../images/image3.jpeg";
 
 const Hero = () => {
   return (

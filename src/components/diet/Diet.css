@@ -1,35 +1,30 @@
 .diet-container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .diet-content {
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  h2 {
-    color: #555;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  p {
-    margin-bottom: 20px;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.meal {
+  margin-bottom: 30px;
+}
+
+.meal h2 {
+  margin-bottom: 10px;
+}
+
+.meal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.meal ul li {
+  margin-bottom: 5px;
+}
+.meal ul li {
+  font-size: 1.2em; /* Adjust the font size value as needed */
+}
