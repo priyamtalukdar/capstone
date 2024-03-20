@@ -7,6 +7,7 @@ const Dietp = () => {
       <h1 className="page-title">Liver Disease Meal Plan</h1>
 
       <div className="meal">
+        <h2>  </h2>
         <h2>Breakfast:</h2>
         <ul>
           <li>Oatmeal: Cooked oatmeal made with water or low-fat milk. Avoid adding sugar. You can sweeten it slightly with a small amount of honey or fresh fruits like berries or sliced banana.</li>

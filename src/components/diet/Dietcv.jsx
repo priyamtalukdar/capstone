@@ -7,6 +7,7 @@ const Dietcv = () => {
       <h1 className="page-title">Cardiovascular Meal Plan</h1>
 
       <div className="meal">
+        <h2> </h2>
         <h2>Breakfast:</h2>
         <ul>
           <li>Oatmeal topped with fresh berries (such as blueberries or strawberries) and a sprinkle of ground flaxseeds or chopped nuts (like almonds or walnuts).</li>
