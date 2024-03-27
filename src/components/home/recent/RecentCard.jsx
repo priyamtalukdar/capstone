@@ -34,7 +34,7 @@ const RecentCard = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/Pressurereport')}>Blood Pressure</button>
+              <button className='btn2' onClick={() => handleButtonClick('/BloodPressurereport')}>Blood Pressure</button>
               <label htmlFor=''></label>
             </div>
           </div>
@@ -64,7 +64,7 @@ const RecentCard = () => {
           </div>
           <div className='button flex'>
             <div>
-            <button className='btn2' onClick={() => handleButtonClick('/Pressurereport')}>Liver Function Test</button>
+            <button className='btn2' onClick={() => handleButtonClick('/LiverFunctionReport')}>Liver Function Test</button>
               <label htmlFor=''></label>
             </div>
           </div>
@@ -79,7 +79,7 @@ const RecentCard = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/report')}>Complete Bloodcount Test</button>
+              <button className='btn2' onClick={() => handleButtonClick('/CompleteBloodCountReport')}>Complete Bloodcount Test</button>
               <label htmlFor=''></label>
             </div>
           </div>
@@ -94,7 +94,7 @@ const RecentCard = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/report')}>Kidney Function Test</button>
+              <button className='btn2' onClick={() => handleButtonClick('/KidneyFunctionTestReport')}>Kidney Function Test</button>
               <label htmlFor=''></label>
             </div>
           </div>

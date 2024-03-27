@@ -2,16 +2,16 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "./Report.css"; // Import CSS file for styling
 
-const Cardiovascular = () => {
+const BloodPressure = () => {
   const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    history.push("/dietcv");
+    history.push("/dietbp");
   };
   return (
     <div className="report-container">
-      <h1 className="report-heading">CardioVascular Test Report</h1>
+      <h1 className="report-heading">Blood Pressure Report</h1>
       <form className="report-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>
@@ -62,4 +62,4 @@ const Cardiovascular = () => {
   );
 };
 
-export default Cardiovascular;
+export default BloodPressure;

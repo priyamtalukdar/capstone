@@ -2,17 +2,16 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "./Report.css"; // Import CSS file for styling
 
-const Cardiovascular = () => {
+const KFC = () => {
   const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    history.push("/dietcv");
+    history.push("/dietkfc");
   };
-
   return (
     <div className="report-container">
-      <h1 className="report-heading">Liver Function Test Report</h1>
+      <h1 className="report-heading">KFC Report</h1>
       <form className="report-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>
@@ -30,27 +29,31 @@ const Cardiovascular = () => {
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="hypertension">Total Bilirubin:</label>
+          <label htmlFor="hypertension">CP:</label>
           <input type="number" id="hypertension" name="hypertension" />
         </div>
         <div className="form-group">
-          <label htmlFor="bmi">Direct Bilirubin</label>
+          <label htmlFor="bmi">Chol:</label>
           <input type="number" id="bmi" name="bmi" />
         </div>
         <div className="form-group">
-          <label htmlFor="hba1c">Alkaline Phosphotase:</label>
+          <label htmlFor="hba1c">FBS:</label>
           <input type="number" id="hba1c" name="hba1c" />
         </div>
         <div className="form-group">
-          <label htmlFor="bloodGlucose">Aspartate Aminotransferase</label>
+          <label htmlFor="bloodGlucose">RestECG:</label>
           <input type="number" id="bloodGlucose" name="bloodGlucose" />
         </div>
         <div className="form-group">
-          <label htmlFor="bloodGlucose">Total Protiens:</label>
+          <label htmlFor="bloodGlucose">Thalachh</label>
           <input type="number" id="bloodGlucose" name="bloodGlucose" />
         </div>
         <div className="form-group">
-          <label htmlFor="bloodGlucose">Albumin and Globulin_Ratio:</label>
+          <label htmlFor="bloodGlucose">Exng:</label>
+          <input type="number" id="bloodGlucose" name="bloodGlucose" />
+        </div>
+        <div className="form-group">
+          <label htmlFor="bloodGlucose">SLP</label>
           <input type="number" id="bloodGlucose" name="bloodGlucose" />
         </div>
         <button type="submit" className="submit-button">Submit</button>
@@ -59,4 +62,4 @@ const Cardiovascular = () => {
   );
 };
 
-export default Cardiovascular;
+export default KFC;
