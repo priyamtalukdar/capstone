@@ -20,6 +20,9 @@ import Dietcbc from "../diet/Dietcbc"; // Import the Diet component
 import Dietbp from "../diet/Dietbp"; // Import the Diet component
 import Dietkft from "../diet/Dietkft"; // Import the Diet component
 
+
+import HighProteinFoods from "../dietss/highprotein"; // Import the Diet component
+
 const Pages = () => {
   return (
     <>
@@ -38,6 +41,10 @@ const Pages = () => {
           <Route exact path="/dietbp" component={Dietbp} />
           <Route exact path="/dietcbc" component={Dietcbc} />
           <Route exact path="/dietkft" component={Dietkft} />
+         
+         
+         
+          <Route exact path="/highprotein" component={HighProteinFoods} />
 
          
           <Route exact path="/Sugarreport" component={SugarReport} /> 

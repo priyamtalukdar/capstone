@@ -19,7 +19,7 @@ const DietCart = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/Sugarreport')}>High Protein Diet</button>
+              <button className='btn2' onClick={() => handleButtonClick('/highprotein')}>High Protein Diet</button>
               <label htmlFor=''></label>
             </div>
           </div>
