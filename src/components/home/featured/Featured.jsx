@@ -24,7 +24,7 @@ const Featured = () => {
           key={index}
           className="box"
           onClick={() => handleBoxClick(box.link)}
-        >
+        > 
           <div className="box-content">
             <div className="text">{box.text}</div>
             <div className="">Goes to a different page for personal plan</div>

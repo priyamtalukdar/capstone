@@ -11,7 +11,7 @@ const CVC = () => {
   };
   return (
     <div className="report-container">
-      <h1 className="report-heading">CVCTest Report</h1>
+      <h1 className="report-heading">Complete Blood Count Test Report</h1>
       <form className="report-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>

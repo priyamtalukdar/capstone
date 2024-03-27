@@ -11,7 +11,7 @@ const KFC = () => {
   };
   return (
     <div className="report-container">
-      <h1 className="report-heading">KFC Report</h1>
+      <h1 className="report-heading">Kidney Function Test Report</h1>
       <form className="report-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>
