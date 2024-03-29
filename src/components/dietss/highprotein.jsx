@@ -1,5 +1,5 @@
 import React from 'react';
-import './highprotein.css';
+import './mcss.css';
 const HighProteinFoodsPage = () => {
   const foods = [
     {

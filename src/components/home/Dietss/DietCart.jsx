@@ -34,7 +34,7 @@ const DietCart = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/BloodPressurereport')}>High Fiber Diet</button>
+              <button className='btn2' onClick={() => handleButtonClick('/highfiber')}>High Fiber Diet</button>
               <label htmlFor=''></label>
             </div>
           </div>
@@ -49,7 +49,7 @@ const DietCart = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/Cardiovascularreport')}>Ketogenic Food Diet</button>
+              <button className='btn2' onClick={() => handleButtonClick('/demo')}>Ketogenic Food Diet</button>
               <label htmlFor=''></label>
             </div>
           </div>
@@ -64,7 +64,7 @@ const DietCart = () => {
           </div>
           <div className='button flex'>
             <div>
-            <button className='btn2' onClick={() => handleButtonClick('/LiverFunctionReport')}>Paleo Diet</button>
+            <button className='btn2' onClick={() => handleButtonClick('/demo')}>Paleo Diet</button>
               <label htmlFor=''></label>
             </div>
           </div>
@@ -79,7 +79,7 @@ const DietCart = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/CompleteBloodCountReport')}>Vegan Food Diet</button>
+              <button className='btn2' onClick={() => handleButtonClick('/demo')}>Vegan Food Diet</button>
               <label htmlFor=''></label>
             </div>
           </div>
@@ -94,7 +94,7 @@ const DietCart = () => {
           </div>
           <div className='button flex'>
             <div>
-              <button className='btn2' onClick={() => handleButtonClick('/KidneyFunctionTestReport')}> Weight Gaining Diet</button>
+              <button className='btn2' onClick={() => handleButtonClick('/weightgain')}> Weight Gaining Diet</button>
               <label htmlFor=''></label>
             </div>
           </div>

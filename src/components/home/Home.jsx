@@ -2,7 +2,7 @@ import React from "react"
 
 import Featured from "./featured/Featured"
 import Dietss from "./Dietss/Dietss"
-import Hero from "./hero/Hero"
+import Corousel from "./Corousel/Hero"
 
 import Recent from "./recent/Recent"
 
@@ -10,7 +10,7 @@ import Recent from "./recent/Recent"
 const Home = () => {
   return (
     <>
-      <Hero />
+      <Corousel />
       <Featured />
       <Recent />
       <Dietss/>

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../common/header/Header";
+import ScrollToTop from './ScrollToTop';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../home/Home";
 import Footer from "../common/footer/Footer";
@@ -20,13 +21,16 @@ import Dietcbc from "../diet/Dietcbc"; // Import the Diet component
 import Dietbp from "../diet/Dietbp"; // Import the Diet component
 import Dietkft from "../diet/Dietkft"; // Import the Diet component
 
-
 import HighProteinFoods from "../dietss/highprotein"; // Import the Diet component
+import HighFiberFoods from "../dietss/highfiber"; // Import the Diet component
+import WeightGain from "../dietss/weightgain"; // Import the Diet component
+import Demo from "../dietss/demo"; // Import the Diet component
 
 const Pages = () => {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -45,6 +49,9 @@ const Pages = () => {
          
          
           <Route exact path="/highprotein" component={HighProteinFoods} />
+          <Route exact path="/highfiber" component={HighFiberFoods} />
+          <Route exact path="/weightgain" component={WeightGain} />
+          <Route exact path="/demo" component={Demo} />
 
          
           <Route exact path="/Sugarreport" component={SugarReport} /> 

@@ -1,6 +1,6 @@
 import React from "react"
 
-import "../home/featured/Featured.css"
+
 import RecentCard from "../home/recent/RecentCard"
 import "../home/recent/recent.css"
 
@@ -8,10 +8,11 @@ import "../home/recent/recent.css"
 const Services = () => {
   return (
     <>
-      <section className='services mb'>
-       
-        <RecentCard />
-       
+      <section className='blog-out mb'>
+        
+        <div className='container recent'>
+          <RecentCard />
+        </div>
       </section>
     </>
   )
